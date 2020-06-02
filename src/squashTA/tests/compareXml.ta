@@ -1,0 +1,13 @@
+METADATA :
+result : success
+subject : rawXml
+        : compare
+
+SETUP :
+LOAD xml-resources/initial.xml AS initial_rsc
+LOAD xml-resources/expected.xml AS expected_rsc
+
+TEST :
+ASSERT initial_rsc DOES contain THE expected_rsc
+
+
