@@ -1,0 +1,2 @@
+EXECUTE log WITH $(--------------------) USING $(logLevel:INFO) AS whatever
+EXECUTE log WITH $(this is the start of ecosystem11) USING $(logLevel:INFO) AS whatever
